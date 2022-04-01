@@ -29,7 +29,7 @@
     <title>Basic Ts | FAQ</title>
   </head>
 
-  <body>
+  <body class="bodyFaq">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-opacity-75">
         <div class="container-fluid">
@@ -70,15 +70,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="contacto.html"
-                  >Contacto</a
-                >
+                <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
+                <a class="nav-link active" aria-current="page" href="faq.html"
+                  >FAQ</a
+                >
               </li>
             </ul>
           </div>
@@ -88,9 +85,11 @@
 
     <main>
       <div>
-        <h4 class="d-flex justify-content-center align-items-center mt-5 pt-5">
+        <h1
+          class="d-flex justify-content-center align-items-center mt-5 pt-5 titulo"
+        >
           <strong> Preguntas Frecuentes</strong>
-        </h4>
+        </h1>
       </div>
       <div class="container p-5 rounded">
         <div class="col">
@@ -98,11 +97,11 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseOne"
                 >
                   <strong>CUALES SON LOS MEDIOS DE PAGO?</strong>
@@ -110,7 +109,7 @@
               </h2>
               <div
                 id="panelsStayOpen-collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingOne"
               >
                 <div class="accordion-body">
@@ -134,7 +133,7 @@
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo"
                 >
-                  <strong>CUALES SON LOS MEDIOS DE ENVIO?</strong>
+                  <strong>CUALES SON LOS MEDIOS DE ENVÍO?</strong>
                 </button>
               </h2>
               <div
@@ -214,7 +213,7 @@
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseFive"
                 >
-                  <strong>CUANTO DEMORA EL ENVIO?</strong>
+                  <strong>CUANTO DEMORA EL ENVÍO?</strong>
                 </button>
               </h2>
               <div
@@ -223,7 +222,7 @@
                 aria-labelledby="panelsStayOpen-headingFive"
               >
                 <div class="accordion-body">
-                  El tiempo de envio depende del transporte seleccionado y la
+                  El tiempo de envío depende del transporte seleccionado y la
                   distancia por recorrer. Por lo general es de entre 2 y 7 días
                   aproximadamente una vez despachado del local.
                 </div>
@@ -249,7 +248,7 @@
               >
                 <div class="accordion-body">
                   Si, podés pasar a retirar tu pedido por nuestro local. El
-                  ejecutivo de ventas se comunicará una vez finalizado el pedido
+                  ejecutivo de ventas se comunicará una vez realizado el pedido
                   y ahí podrás especificar que es para retirar en el local. A su
                   vez, retirando en nuestro local también tenés la opción de
                   abonar el pedido en efectivo en el momento. La direccion de
@@ -267,7 +266,7 @@
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseSeven"
                 >
-                  <strong>HACEN ENVIOS AL INTERIOR?</strong>
+                  <strong>HACEN ENVÍOS AL INTERIOR?</strong>
                 </button>
               </h2>
               <div
@@ -276,7 +275,7 @@
                 aria-labelledby="panelsStayOpen-headingSeven"
               >
                 <div class="accordion-body">
-                  Si, hacemos envios a todo el pais!
+                  Si, hacemos envíos a todo el país!
                 </div>
               </div>
             </div>
@@ -286,7 +285,7 @@
 
       <div class="container">
         <div class="col text-center p-5">
-          <h5>Si te quedó alguna duda,</h5>
+          <h5 class="subtitulo">Si te quedó alguna duda,</h5>
           <strong> <a href="contacto.html">CONTACTANOS</a></strong>
         </div>
       </div>

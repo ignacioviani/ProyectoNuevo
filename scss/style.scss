@@ -1,4 +1,43 @@
+.bodyIndex {
+  background-color: rgb(14, 14, 14);
+}
+
+.tituloNav {
+  color: white;
+}
+
 footer {
   background-color: #00ffff;
   padding: 5px;
+}
+
+.bodyContacto {
+  background-color: rgb(14, 14, 14);
+}
+
+.h3Contacto {
+  color: white;
+}
+
+.buttonContacto {
+  color: #00ffff;
+}
+
+.bodyTablas {
+  background-image: url(./imagenes/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bodyTienda {
+  background-color: black;
+}
+
+.tituloTienda {
+  color: #00ffff;
+}
+
+.subtituloTienda {
+  color: white;
 }

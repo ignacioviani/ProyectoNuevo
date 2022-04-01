@@ -15,30 +15,27 @@ footer {
   background-color: rgb(14, 14, 14);
 }
 
-.h3Contacto {
-  color: white;
-}
-
 .buttonContacto {
   color: #00ffff;
 }
 
 .bodyTablas {
-  background-image: url(./imagenes/fondo2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: black;
 }
 
 .bodyTienda {
   background-color: black;
 }
 
-.tituloTienda {
+.bodyFaq {
+  background-color: black;
+}
+
+.titulo {
   color: #00ffff;
 }
 
-.subtituloTienda {
+.subtitulo {
   color: white;
 }
 
