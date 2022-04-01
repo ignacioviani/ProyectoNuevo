@@ -24,7 +24,7 @@ footer {
 }
 
 .bodyTablas {
-  background-image: url(/imagenes/fondo2.jpg);
+  background-image: url(./imagenes/fondo2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
