@@ -1,7 +1,3 @@
-.bodyIndex {
-  background-color: rgb(14, 14, 14);
-}
-
 .tituloNav {
   color: white;
 }
@@ -11,23 +7,7 @@ footer {
   padding: 5px;
 }
 
-.bodyContacto {
-  background-color: rgb(14, 14, 14);
-}
-
-.buttonContacto {
-  color: #00ffff;
-}
-
-.bodyTablas {
-  background-color: black;
-}
-
-.bodyTienda {
-  background-color: black;
-}
-
-.bodyFaq {
+body {
   background-color: black;
 }
 
@@ -37,6 +17,10 @@ footer {
 
 .subtitulo {
   color: white;
+}
+
+.buttonContacto {
+  color: #00ffff;
 }
 
 /*# sourceMappingURL=estilos.css.map */
